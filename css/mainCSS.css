@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.wrapper {
+}
+.page {
+    padding: 40px 10px;
+}
+.page__title {
+    font-size: 26px;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+}
+.page__text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*black site*/
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+}
